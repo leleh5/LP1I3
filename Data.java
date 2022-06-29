@@ -50,15 +50,15 @@ public class Data
 	}
 
 	//métodos da classe Data
-	public void entraDia(int d)
+	public void setDia(int d)
 	{ dia = d; }
-	public void entraMes(int m)
+	public void setMes(int m)
 	{ mes = m; }
-	public void entraAno(int a)
+	public void setAno(int a)
 	{ ano = a; }
 
 	//
-	public void entraDia()
+	public void setDia()
 	{ 
 		int cond=1;
 
@@ -76,7 +76,7 @@ public class Data
 		}while(cond == 1); 
 	}
 
-	public void entraMes()
+	public void setMes()
 	{ 
 		int cond=1;
 
@@ -94,7 +94,7 @@ public class Data
 		}while(cond == 1);
 	}
 
-	public void entraAno()
+	public void setAno()
 	{ 
 		int cond=1;
 
@@ -112,11 +112,11 @@ public class Data
 		}while(cond == 1);
 	}
 
-	public int retDia()
+	public int getDia()
 	{ return dia; }
-	public int retMes()
+	public int getMes()
 	{ return mes; }
-	public int retAno()
+	public int getAno()
 	{ return ano; }
 
 	//
